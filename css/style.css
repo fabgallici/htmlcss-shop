@@ -12,7 +12,12 @@ body {
 .object-container {
   border:1px solid black;
   display: inline-block;
-  width:320px;
-  height:400px;
+  width:350px;
+  height:450px; /*se setto height:550px non crea spazio sopra */
   background-color: #EDEDED;
+
+}
+img {
+  margin: 0;
+  padding: 0;
 }
