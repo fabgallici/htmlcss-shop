@@ -4,21 +4,39 @@ body {
 }
 
 .main-container {
-  width:100%;
+  width:1250px;
   background: pink;
   text-align: center;
+  margin-bottom: 25px;
 }
 
 .object-container {
   position: relative;
-  border:1px solid black;
+  border: 1px solid black;
   display: inline-block;
-  width:350px;
-  height:450px; /*se setto height:550px non crea spazio sopra */
+  width: 350px;
+  height: 450px; /*se setto height:550px non crea spazio sopra */
   background-color: #EDEDED;
 
 }
+
+.codice-sconto-5 {
+  position: absolute;
+  width: 40px;
+  height: 20px;
+  background-color: red;
+  right: 0px;
+}
+
+.codice-sconto-30 {
+  position: absolute;
+  width: 40px;
+  height: 20px;
+  background-color: green;
+  right: 0px;
+}
+/*
 img {
   margin: 0;
   padding: 0;
-}
+}*/
