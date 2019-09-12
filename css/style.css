@@ -15,9 +15,15 @@ body {
   border: 1px solid black;
   display: inline-block;
   width: 350px;
-  height: 450px; /*se setto height:550px non crea spazio sopra */
-  background-color: #EDEDED;
+  height: 450px; 
+  background-color: #EDEDED; */
 
+}
+
+.object-container:hover {
+  background-image: url("../img/hearth.jpg");
+  background-repeat: no-repeat;
+  background-position: bottom;
 }
 
 .codice-sconto-5 {
@@ -35,21 +41,3 @@ body {
   background-color: green;
   right: 0px;
 }
-
-.hearth {
-  width: 50px;
-  height: 40px;
-  position: relative;
-  left: 150px;
-  display: none;
-}
-
-img[src^="img/pd"]:hover {
-  content: url(img/hearth.jpg);
-  display: block;
-}
-/*
-img {
-  margin: 0;
-  padding: 0;
-}*/
